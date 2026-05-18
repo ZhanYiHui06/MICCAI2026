@@ -1,0 +1,24 @@
+# Output directories
+checkpoints/
+results/
+datasets/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# Temporary files
+*.log
+*.tmp

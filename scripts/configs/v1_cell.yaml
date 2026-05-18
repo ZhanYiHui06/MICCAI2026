@@ -1,0 +1,13 @@
+# V1 Cell Training Configuration (Resize-based, 256x256 output)
+name: cell_v1
+dataroot: datasets/cell
+dataset_mode: cell_dataset_v1
+direction: BtoA
+model: sb
+mode: sb
+batch_size: 4
+load_size: 286
+crop_size: 256
+preprocess: resize_and_crop
+n_epochs: 500
+n_epochs_decay: 100

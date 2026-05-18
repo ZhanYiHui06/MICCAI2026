@@ -1,0 +1,15 @@
+# SC-UNSB Configuration (with Dense Normalization)
+name: cell_sc_unsb
+dataroot: datasets/cell
+dataset_mode: cell_dataset_v2
+direction: BtoA
+model: sb
+mode: sb
+batch_size: 1
+crop_size: 256
+background_threshold: 0.95
+bg_sample_prob: 0.05
+cell_sample_prob: 0.10
+normG: dn
+n_epochs: 500
+n_epochs_decay: 100

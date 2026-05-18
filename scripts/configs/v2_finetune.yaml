@@ -1,0 +1,15 @@
+# V2 Cell Fine-tuning Configuration (Adjusted sampling probabilities)
+name: cell_v2
+dataroot: datasets/cell
+dataset_mode: cell_dataset_v2
+direction: BtoA
+model: sb
+mode: sb
+batch_size: 1
+crop_size: 256
+background_threshold: 0.95
+bg_sample_prob: 0.15
+cell_sample_prob: 0.20
+continue_train: true
+n_epochs: 600
+n_epochs_decay: 100
